@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.resume-box {
+  max-width: 1200px;
+  display: flex;
+  gap: 40px;
+  margin: auto;
+  margin-top: 50px;
+  font-size: 18px;
+}
