@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  
 }
 
 .resume-box {
@@ -10,4 +11,44 @@ body {
   margin: auto;
   margin-top: 50px;
   font-size: 18px;
+
+
+  align-items: center;
+  justify-content: center;
+
+  @media (max-width: 1000px) {
+    flex-direction: column;
+  }
+
+}
+
+
+.Moon-picture{
+  max-height: 650px;
+  max-width: 550px;
+
+
+  @media (max-width: 690px) {
+    max-height: 520px;
+    max-width: 430px;
+  }
+
+
+  
+  @media (max-width: 500px) {
+    max-height: 400px;
+    max-width: 300px;
+  }
+
+
+  @media (max-width: 350px) {
+    max-height: 480px;
+    max-width: 250px;
+  }
+}
+
+
+
+.text{
+  width: 50%;
 }
